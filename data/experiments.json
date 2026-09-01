@@ -1,0 +1,47 @@
+[
+  {
+    "id": "pixel-trail",
+    "title": "Pixel Trail",
+    "category": "Pointer / Canvas",
+    "description": "Paint a fading field of light with movement, velocity, color, and gooey compositing.",
+    "path": "/experiments/pixel-trail.html",
+    "source": "https://github.com/kevinrufino/toolcraft-pixel-trail",
+    "accent": "#ff654d"
+  },
+  {
+    "id": "orbit-loom",
+    "title": "Orbit Loom",
+    "category": "Motion / Geometry",
+    "description": "Weave orbital forms into a kinetic field with tunable density, rhythm, and depth.",
+    "path": "/experiments/orbit-loom.html",
+    "source": "https://github.com/kevinrufino/toolcraft-pixel-trail",
+    "accent": "#2145ff"
+  },
+  {
+    "id": "liquid-navigation",
+    "title": "Liquid Navigation",
+    "category": "Interface / SVG",
+    "description": "Shape a navigation highlight that stretches, beads, and merges between labels.",
+    "path": "/experiments/liquid-navigation.html",
+    "source": "https://github.com/kevinrufino/toolcraft-pixel-trail",
+    "accent": "#c8ed41"
+  },
+  {
+    "id": "glyph-channel",
+    "title": "Glyph Channel",
+    "category": "Media / Raster",
+    "description": "Translate images and video into responsive fields of dots, type, vectors, and color.",
+    "path": "/experiments/glyph-channel.html",
+    "source": "https://github.com/kevinrufino/toolcraft-pixel-trail",
+    "accent": "#ff8e80"
+  },
+  {
+    "id": "spider-lab",
+    "title": "Spider Lab",
+    "category": "Motion / System",
+    "description": "Tune a procedural spider of planted squares, elastic limbs, and pointer-led motion.",
+    "path": "/experiments/spider-lab.html",
+    "source": "https://github.com/kevinrufino/spider-toolcraft-lab",
+    "accent": "#3d5afe"
+  }
+]
