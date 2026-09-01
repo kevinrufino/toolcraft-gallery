@@ -7,7 +7,7 @@ const body = Manrope({ variable: '--font-body', subsets: ['latin'] });
 const utility = IBM_Plex_Mono({ variable: '--font-utility', weight: ['400', '500'], subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://toolcraft-gallery.kevinrufino97.chatgpt.site'),
+  metadataBase: new URL('https://toolcraft-gallery.vercel.app'),
   title: 'Toolcraft Archive — Kevin Rufino',
   description: 'A growing collection of interactive studies in motion, type, image, and interface.',
   openGraph: {
