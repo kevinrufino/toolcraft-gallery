@@ -5,6 +5,9 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  --font-display: "Arial Black", "Helvetica Neue", sans-serif;
+  --font-body: "Helvetica Neue", Arial, sans-serif;
+  --font-utility: "Courier New", monospace;
   --powder: #e8eef0;
   --paper: #f7f6f2;
   --ink: #152027;
