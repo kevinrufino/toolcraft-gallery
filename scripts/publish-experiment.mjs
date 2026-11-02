@@ -45,6 +45,15 @@ await mkdir(targetDir, { recursive: true });
 await cp(distDir, targetDir, { recursive: true });
 await cp(join(distDir, 'index.html'), flatEntry);
 
+// Toolcraft apps from newer templates route under their Vite base path
+// (/experiments/<slug>/), so the flat entry renames its own URL to that
+// folder before the app boots. No reload happens; the file stays static.
+if (flags.includes('--folder-route')) {
+  const folderRoute = `<script>history.replaceState(history.state, '', '/experiments/${slug}/' + location.search + location.hash);</script>`;
+  const html = await readFile(flatEntry, 'utf8');
+  await writeFile(flatEntry, html.replace('<head>', `<head>\n    ${folderRoute}`));
+}
+
 const catalog = JSON.parse(await readFile(catalogPath, 'utf8'));
 const existing = catalog.find((experiment) => experiment.id === slug);
 const record = {

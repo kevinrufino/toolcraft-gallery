@@ -43,5 +43,14 @@
     "path": "/experiments/spider-lab.html",
     "source": "https://github.com/kevinrufino/spider-toolcraft-lab",
     "accent": "#3d5afe"
+  },
+  {
+    "id": "silk-lab",
+    "title": "Silk Lab",
+    "category": "WebGL / Shader",
+    "description": "Tune stripe.com's folded silk hero: its five waves, painted palettes, unlit streaks, and the double-copy hard-light headline.",
+    "path": "/experiments/silk-lab.html",
+    "source": "",
+    "accent": "#635BFF"
   }
 ]

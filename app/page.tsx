@@ -63,7 +63,6 @@ export default function Home() {
 
       <section className="gallery-title" id="top">
         <p className="kicker">Toolcraft archive / 2026—ongoing</p>
-        <h1>Small tools.<br /><span>Big rabbit holes.</span></h1>
         <p className="gallery-deck">A collection of playable experiments in motion, image, type, and interaction.</p>
       </section>
 
@@ -91,9 +90,11 @@ export default function Home() {
                 <h2>{experiment.title}</h2>
               </div>
               <p className="card-description">{experiment.description}</p>
-              <a href={experiment.source} target="_blank" rel="noreferrer" aria-label={`View ${experiment.title} source on GitHub`}>
-                Source <span aria-hidden="true">↗</span>
-              </a>
+              {experiment.source ? (
+                <a href={experiment.source} target="_blank" rel="noreferrer" aria-label={`View ${experiment.title} source on GitHub`}>
+                  Source <span aria-hidden="true">↗</span>
+                </a>
+              ) : null}
             </footer>
           </article>
         ))}
